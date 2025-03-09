@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\alfar\\source\\repos\\RegistroNotas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CE2731D3-8A41-4BCA-AB2B-F7D7DD6E942D}|NegocioDatos\\NegocioDatos.csproj|c:\\users\\alfar\\source\\repos\\registronotas\\negociodatos\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE2731D3-8A41-4BCA-AB2B-F7D7DD6E942D}|NegocioDatos\\NegocioDatos.csproj|solutionrelative:negociodatos\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38A5F538-5532-4BE2-BAC4-CC6DF5CC5734}|Data\\Data.csproj|c:\\users\\alfar\\source\\repos\\registronotas\\data\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38A5F538-5532-4BE2-BAC4-CC6DF5CC5734}|Data\\Data.csproj|solutionrelative:data\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\alfar\\source\\repos\\RegistroNotas\\NegocioDatos\\Class1.cs",
+              "RelativeDocumentMoniker": "NegocioDatos\\Class1.cs",
+              "ToolTip": "C:\\Users\\alfar\\source\\repos\\RegistroNotas\\NegocioDatos\\Class1.cs",
+              "RelativeToolTip": "NegocioDatos\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T01:39:20.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\alfar\\source\\repos\\RegistroNotas\\Data\\Class1.cs",
+              "RelativeDocumentMoniker": "Data\\Class1.cs",
+              "ToolTip": "C:\\Users\\alfar\\source\\repos\\RegistroNotas\\Data\\Class1.cs",
+              "RelativeToolTip": "Data\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T01:39:01.492Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
