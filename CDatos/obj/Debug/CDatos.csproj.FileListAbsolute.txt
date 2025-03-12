@@ -1,0 +1,6 @@
+C:\Users\alfar\source\repos\RegistroNotas\CDatos\bin\Debug\CDatos.dll
+C:\Users\alfar\source\repos\RegistroNotas\CDatos\bin\Debug\CDatos.pdb
+C:\Users\alfar\source\repos\RegistroNotas\CDatos\obj\Debug\CDatos.csproj.AssemblyReference.cache
+C:\Users\alfar\source\repos\RegistroNotas\CDatos\obj\Debug\CDatos.csproj.CoreCompileInputs.cache
+C:\Users\alfar\source\repos\RegistroNotas\CDatos\obj\Debug\CDatos.dll
+C:\Users\alfar\source\repos\RegistroNotas\CDatos\obj\Debug\CDatos.pdb

@@ -3,12 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\alfar\\source\\repos\\RegistroNotas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CE2731D3-8A41-4BCA-AB2B-F7D7DD6E942D}|NegocioDatos\\NegocioDatos.csproj|c:\\users\\alfar\\source\\repos\\registronotas\\negociodatos\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE2731D3-8A41-4BCA-AB2B-F7D7DD6E942D}|NegocioDatos\\NegocioDatos.csproj|solutionrelative:negociodatos\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{385A17C0-CBFE-4A11-BFF8-6C9DE20FDCE5}|Prrsentacion\\Presentacion.csproj|c:\\users\\alfar\\source\\repos\\registronotas\\prrsentacion\\registro.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{385A17C0-CBFE-4A11-BFF8-6C9DE20FDCE5}|Prrsentacion\\Presentacion.csproj|solutionrelative:prrsentacion\\registro.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38A5F538-5532-4BE2-BAC4-CC6DF5CC5734}|Data\\Data.csproj|c:\\users\\alfar\\source\\repos\\registronotas\\data\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38A5F538-5532-4BE2-BAC4-CC6DF5CC5734}|Data\\Data.csproj|solutionrelative:data\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{936637E0-A8A0-45C5-BF49-A90E516D5E49}|Negocios\\Negocios.csproj|C:\\Users\\alfar\\source\\repos\\RegistroNotas\\negocios\\ncategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{936637E0-A8A0-45C5-BF49-A90E516D5E49}|Negocios\\Negocios.csproj|solutionrelative:negocios\\ncategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9DADC74-013E-4F5C-A817-A6E5E42D5C56}|CDatos\\CDatos.csproj|C:\\Users\\alfar\\source\\repos\\RegistroNotas\\cdatos\\categorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9DADC74-013E-4F5C-A817-A6E5E42D5C56}|CDatos\\CDatos.csproj|solutionrelative:cdatos\\categorias.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9DADC74-013E-4F5C-A817-A6E5E42D5C56}|CDatos\\CDatos.csproj|C:\\Users\\alfar\\source\\repos\\RegistroNotas\\cdatos\\cuentas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B9DADC74-013E-4F5C-A817-A6E5E42D5C56}|CDatos\\CDatos.csproj|solutionrelative:cdatos\\cuentas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{936637E0-A8A0-45C5-BF49-A90E516D5E49}|Negocios\\Negocios.csproj|C:\\Users\\alfar\\source\\repos\\RegistroNotas\\negocios\\ncuentas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{936637E0-A8A0-45C5-BF49-A90E516D5E49}|Negocios\\Negocios.csproj|solutionrelative:negocios\\ncuentas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{385A17C0-CBFE-4A11-BFF8-6C9DE20FDCE5}|Prrsentacion\\Presentacion.csproj|C:\\Users\\alfar\\source\\repos\\RegistroNotas\\Prrsentacion\\credenciales.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{385A17C0-CBFE-4A11-BFF8-6C9DE20FDCE5}|Prrsentacion\\Presentacion.csproj|solutionrelative:Prrsentacion\\credenciales.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{385A17C0-CBFE-4A11-BFF8-6C9DE20FDCE5}|Prrsentacion\\Presentacion.csproj|C:\\Users\\alfar\\source\\repos\\RegistroNotas\\Prrsentacion\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{385A17C0-CBFE-4A11-BFF8-6C9DE20FDCE5}|Prrsentacion\\Presentacion.csproj|solutionrelative:Prrsentacion\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,33 +38,96 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\alfar\\source\\repos\\RegistroNotas\\NegocioDatos\\Class1.cs",
-              "RelativeDocumentMoniker": "NegocioDatos\\Class1.cs",
-              "ToolTip": "C:\\Users\\alfar\\source\\repos\\RegistroNotas\\NegocioDatos\\Class1.cs",
-              "RelativeToolTip": "NegocioDatos\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T01:39:20.956Z",
+              "Title": "registro.aspx",
+              "DocumentMoniker": "C:\\Users\\alfar\\source\\repos\\RegistroNotas\\Prrsentacion\\registro.aspx",
+              "RelativeDocumentMoniker": "Prrsentacion\\registro.aspx",
+              "ToolTip": "C:\\Users\\alfar\\source\\repos\\RegistroNotas\\Prrsentacion\\registro.aspx",
+              "RelativeToolTip": "Prrsentacion\\registro.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-12T04:31:26.741Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "credenciales.aspx",
+              "DocumentMoniker": "C:\\Users\\alfar\\source\\repos\\RegistroNotas\\Prrsentacion\\credenciales.aspx",
+              "RelativeDocumentMoniker": "Prrsentacion\\credenciales.aspx",
+              "ToolTip": "C:\\Users\\alfar\\source\\repos\\RegistroNotas\\Prrsentacion\\credenciales.aspx",
+              "RelativeToolTip": "Prrsentacion\\credenciales.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-12T04:27:20.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "index.aspx",
+              "DocumentMoniker": "C:\\Users\\alfar\\source\\repos\\RegistroNotas\\Prrsentacion\\index.aspx",
+              "RelativeDocumentMoniker": "Prrsentacion\\index.aspx",
+              "ToolTip": "C:\\Users\\alfar\\source\\repos\\RegistroNotas\\Prrsentacion\\index.aspx",
+              "RelativeToolTip": "Prrsentacion\\index.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-03-12T04:22:12.761Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\alfar\\source\\repos\\RegistroNotas\\Data\\Class1.cs",
-              "RelativeDocumentMoniker": "Data\\Class1.cs",
-              "ToolTip": "C:\\Users\\alfar\\source\\repos\\RegistroNotas\\Data\\Class1.cs",
-              "RelativeToolTip": "Data\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "NCategoria.cs",
+              "DocumentMoniker": "C:\\Users\\alfar\\source\\repos\\RegistroNotas\\Negocios\\NCategoria.cs",
+              "RelativeDocumentMoniker": "Negocios\\NCategoria.cs",
+              "ToolTip": "C:\\Users\\alfar\\source\\repos\\RegistroNotas\\Negocios\\NCategoria.cs",
+              "RelativeToolTip": "Negocios\\NCategoria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T01:39:01.492Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-12T04:21:14.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Categorias.cs",
+              "DocumentMoniker": "C:\\Users\\alfar\\source\\repos\\RegistroNotas\\CDatos\\Categorias.cs",
+              "RelativeDocumentMoniker": "CDatos\\Categorias.cs",
+              "ToolTip": "C:\\Users\\alfar\\source\\repos\\RegistroNotas\\CDatos\\Categorias.cs",
+              "RelativeToolTip": "CDatos\\Categorias.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAADwvyUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T04:20:37.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NCuentas.cs",
+              "DocumentMoniker": "C:\\Users\\alfar\\source\\repos\\RegistroNotas\\Negocios\\NCuentas.cs",
+              "RelativeDocumentMoniker": "Negocios\\NCuentas.cs",
+              "ToolTip": "C:\\Users\\alfar\\source\\repos\\RegistroNotas\\Negocios\\NCuentas.cs",
+              "RelativeToolTip": "Negocios\\NCuentas.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAowB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T04:10:39.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Cuentas.cs",
+              "DocumentMoniker": "C:\\Users\\alfar\\source\\repos\\RegistroNotas\\CDatos\\Cuentas.cs",
+              "RelativeDocumentMoniker": "CDatos\\Cuentas.cs",
+              "ToolTip": "C:\\Users\\alfar\\source\\repos\\RegistroNotas\\CDatos\\Cuentas.cs",
+              "RelativeToolTip": "CDatos\\Cuentas.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAgwBIAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T03:54:12.182Z"
             }
           ]
         }

@@ -1,0 +1,9 @@
+C:\Users\alfar\source\repos\RegistroNotas\Negocios\bin\Debug\Negocios.dll
+C:\Users\alfar\source\repos\RegistroNotas\Negocios\bin\Debug\Negocios.pdb
+C:\Users\alfar\source\repos\RegistroNotas\Negocios\bin\Debug\CDatos.dll
+C:\Users\alfar\source\repos\RegistroNotas\Negocios\bin\Debug\CDatos.pdb
+C:\Users\alfar\source\repos\RegistroNotas\Negocios\obj\Debug\Negocios.csproj.AssemblyReference.cache
+C:\Users\alfar\source\repos\RegistroNotas\Negocios\obj\Debug\Negocios.csproj.CoreCompileInputs.cache
+C:\Users\alfar\source\repos\RegistroNotas\Negocios\obj\Debug\Negocios.csproj.Up2Date
+C:\Users\alfar\source\repos\RegistroNotas\Negocios\obj\Debug\Negocios.dll
+C:\Users\alfar\source\repos\RegistroNotas\Negocios\obj\Debug\Negocios.pdb
