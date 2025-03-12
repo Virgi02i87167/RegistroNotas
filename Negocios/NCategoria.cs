@@ -14,9 +14,9 @@ namespace Negocios
         {
             Categorias _categorias = new Categorias();
 
-            public DataTable getCategorias()
+            public DataTable obtenerCategorias()
             {
-                return _categorias.Get();
+                return _categorias.ObtenerCategoria();
             }
         }
     }

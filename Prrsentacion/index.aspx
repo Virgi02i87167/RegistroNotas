@@ -19,10 +19,10 @@
                                 <a class="nav-link active" aria-current="page" href="index.aspx">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="credenciales.aspx">Credenciales</a>
+                                <a class="nav-link" href="Cuentas/credenciales.aspx">Credenciales</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="registro.aspx">Registrar Notas</a>
+                                <a class="nav-link" href="Registro/registro.aspx">Registrar Notas</a>
                             </li>
                         </ul>
                     </div>

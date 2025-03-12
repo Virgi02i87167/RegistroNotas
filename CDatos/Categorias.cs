@@ -18,19 +18,17 @@ namespace CDatos
             _connectionString = ConfigurationManager.ConnectionStrings["conexion"].ConnectionString;
         }
 
-        public DataTable Get()
+        public DataTable ObtenerCategoria()
         {
             DataTable dt = new DataTable();
-
-            using (SqlConnection conn = new SqlConnection(_connectionString))
+            using (SqlConnection con = new SqlConnection(_connectionString))
             {
-                conn.Open();
-
-                using (SqlCommand cmd = new SqlCommand("SELECT * FROM categorias", conn))
+                con.Open();
+                using (SqlCommand cmd = new SqlCommand("SELECT id, nombre FROM categorias", con))
                 {
-                    using (SqlDataAdapter adapter = new SqlDataAdapter(cmd))
+                    using (SqlDataAdapter da = new SqlDataAdapter(cmd))
                     {
-                        adapter.Fill(dt);
+                        da.Fill(dt);
                     }
                 }
             }

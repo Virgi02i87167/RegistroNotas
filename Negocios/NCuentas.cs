@@ -21,6 +21,11 @@ namespace Negocios
             return _cuentas.Agregar(nombre, usuario, password, idcategoria);
         }
 
+        public bool ActualizarCredencial(int id, string nombre, string usuario, string password, int idcategoria)
+        {
+            return _cuentas.Modificar(id, nombre, usuario, password, idcategoria);
+        }
+
         public bool EliminarCredencial(int id)
         {
             return _cuentas.Eliminar(id);
