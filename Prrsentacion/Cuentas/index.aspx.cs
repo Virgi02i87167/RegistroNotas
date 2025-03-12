@@ -35,25 +35,62 @@ namespace Prrsentacion.Cuentas
             dropCategorias.DataTextField = "nombre";
             dropCategorias.DataValueField = "id";
             dropCategorias.DataBind();
-
-            dropCategorias.Items.Insert(0, new ListItem("Seleccione una opción", "0"));
         }
 
-        protected void gvCredenciales_RowCommand(object sender, GridViewCommandEventArgs e)
+        protected void btnAgregar_Click(object sender, EventArgs e)
         {
-            if (e.CommandName == "Eliminar")
-            {
-                int id = Convert.ToInt32(e.CommandArgument);
+            string nombre = txtNombre.Text;
+            string usuario = txtUsuario.Text;
+            string password = txtPassword.Text;
+            int idcategoria = Convert.ToInt32(dropCategorias.SelectedValue);
 
-                bool eliminado = nCuentas.EliminarCredencial(id);
-                if (eliminado)
-                {
-                    CargarCredenciales();
-                }
-                else
-                {
-                    ClientScript.RegisterStartupScript(this.GetType(), "alert", "alert('No se pudo eliminar el registro');", true);
-                }
+            bool agregado = nCuentas.AgregarCredencial(nombre, usuario, password, idcategoria);
+            if (agregado)
+            {
+                CargarCredenciales();
+            }
+            else
+            {
+                Response.Write("<script>alert('Error al agregar credencial');</script>");
+            }
+        }
+
+        protected void gvCredenciales_RowEditing(object sender, System.Web.UI.WebControls.GridViewEditEventArgs e)
+        {
+            gvCredenciales.EditIndex = e.NewEditIndex;
+            CargarCredenciales();
+        }
+
+        protected void gvCredenciales_RowUpdating(object sender, System.Web.UI.WebControls.GridViewUpdateEventArgs e)
+        {
+            int id = Convert.ToInt32(gvCredenciales.DataKeys[e.RowIndex].Value);
+            GridViewRow row = gvCredenciales.Rows[e.RowIndex];
+
+            string nombre = (row.Cells[2].Controls[0] as System.Web.UI.WebControls.TextBox).Text;
+            string usuario = (row.Cells[3].Controls[0] as System.Web.UI.WebControls.TextBox).Text; 
+            string password = (row.Cells[4].Controls[0] as System.Web.UI.WebControls.TextBox).Text;
+            int idcategoria = int.Parse((row.Cells[5].Controls[0] as System.Web.UI.WebControls.TextBox).Text); 
+
+            if (nCuentas.ActualizarCredencial(id, nombre, usuario, password, idcategoria))  
+            {
+                gvCredenciales.EditIndex = -1;
+                CargarCredenciales();
+            }
+        }
+
+        protected void gvCredenciales_RowCancelingEdit(object sender, System.Web.UI.WebControls.GridViewCancelEditEventArgs e)
+        {
+            gvCredenciales.EditIndex = -1;
+            CargarCredenciales();
+        }
+
+        protected void gvCredenciales_RowDeleting(object sender, System.Web.UI.WebControls.GridViewDeleteEventArgs e)
+        {
+            int id = Convert.ToInt32(gvCredenciales.DataKeys[e.RowIndex].Value);
+
+            if (nCuentas.EliminarCredencial(id))
+            {
+                CargarCredenciales();
             }
         }
     }

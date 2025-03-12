@@ -10,14 +10,13 @@ namespace Negocios
 {
     public class NCategoria
     {
-        public class NCategorias
-        {
+     
             Categorias _categorias = new Categorias();
 
             public DataTable obtenerCategorias()
             {
                 return _categorias.ObtenerCategoria();
             }
-        }
-    }
+       }
+    
 }

@@ -16,10 +16,10 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="index.aspx">Home</a>
+                                <a class="nav-link active" aria-current="page" href="../index.aspx">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="Cuentas/credenciales.aspx">Credenciales</a>
+                                <a class="nav-link" href="../Cuentas/index.aspx">Credenciales</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="Registro/registro.aspx">Registrar Notas</a>
@@ -31,5 +31,6 @@
         </div>
         <h2>Registro</h2>
     </form>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
