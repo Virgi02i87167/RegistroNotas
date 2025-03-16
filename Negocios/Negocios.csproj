@@ -44,6 +44,7 @@
   <ItemGroup>
     <Compile Include="NCategoria.cs" />
     <Compile Include="NCuentas.cs" />
+    <Compile Include="NNotas.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

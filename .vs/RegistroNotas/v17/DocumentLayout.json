@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\alfar\\source\\repos\\RegistroNotas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{385A17C0-CBFE-4A11-BFF8-6C9DE20FDCE5}|Prrsentacion\\Presentacion.csproj|c:\\users\\alfar\\source\\repos\\registronotas\\prrsentacion\\cuentas\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{385A17C0-CBFE-4A11-BFF8-6C9DE20FDCE5}|Prrsentacion\\Presentacion.csproj|solutionrelative:prrsentacion\\cuentas\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{385A17C0-CBFE-4A11-BFF8-6C9DE20FDCE5}|Prrsentacion\\Presentacion.csproj|c:\\users\\alfar\\source\\repos\\registronotas\\prrsentacion\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{385A17C0-CBFE-4A11-BFF8-6C9DE20FDCE5}|Prrsentacion\\Presentacion.csproj|solutionrelative:prrsentacion\\index.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{385A17C0-CBFE-4A11-BFF8-6C9DE20FDCE5}|Prrsentacion\\Presentacion.csproj|c:\\users\\alfar\\source\\repos\\registronotas\\prrsentacion\\cuentas\\index.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -28,13 +28,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "index.aspx",
-              "DocumentMoniker": "C:\\Users\\alfar\\source\\repos\\RegistroNotas\\Prrsentacion\\Cuentas\\index.aspx",
-              "RelativeDocumentMoniker": "Prrsentacion\\Cuentas\\index.aspx",
-              "ToolTip": "C:\\Users\\alfar\\source\\repos\\RegistroNotas\\Prrsentacion\\Cuentas\\index.aspx",
-              "RelativeToolTip": "Prrsentacion\\Cuentas\\index.aspx",
+              "DocumentMoniker": "C:\\Users\\alfar\\source\\repos\\RegistroNotas\\Prrsentacion\\index.aspx",
+              "RelativeDocumentMoniker": "Prrsentacion\\index.aspx",
+              "ToolTip": "C:\\Users\\alfar\\source\\repos\\RegistroNotas\\Prrsentacion\\index.aspx",
+              "RelativeToolTip": "Prrsentacion\\index.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-03-12T18:31:47.085Z",
+              "WhenOpened": "2025-03-16T23:41:34.838Z",
               "EditorCaption": ""
             },
             {
@@ -45,7 +45,7 @@
               "RelativeDocumentMoniker": "Prrsentacion\\Cuentas\\index.aspx.cs",
               "ToolTip": "C:\\Users\\alfar\\source\\repos\\RegistroNotas\\Prrsentacion\\Cuentas\\index.aspx.cs",
               "RelativeToolTip": "Prrsentacion\\Cuentas\\index.aspx.cs",
-              "ViewState": "AgIAAFAAAAAAAAAAAAAAAFYAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAFsAAAAAAAAAAADwv0MAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-12T18:25:58.496Z",
               "EditorCaption": ""

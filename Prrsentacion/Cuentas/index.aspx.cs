@@ -59,19 +59,26 @@ namespace Prrsentacion.Cuentas
         {
             gvCredenciales.EditIndex = e.NewEditIndex;
             CargarCredenciales();
+
+            DropDownList ddlCategoria = (DropDownList)gvCredenciales.Rows[e.NewEditIndex].FindControl("ddlCategoria");
+            if (ddlCategoria != null)
+            {
+                ddlCategoria.DataSource = _nCategorias.obtenerCategorias();
+                ddlCategoria.DataTextField = "nombre";
+                ddlCategoria.DataValueField = "id";
+                ddlCategoria.DataBind();
+            }
         }
 
-        protected void gvCredenciales_RowUpdating(object sender, System.Web.UI.WebControls.GridViewUpdateEventArgs e)
+        protected void gvCredenciales_RowUpdating(object sender, GridViewUpdateEventArgs e)
         {
             int id = Convert.ToInt32(gvCredenciales.DataKeys[e.RowIndex].Value);
-            GridViewRow row = gvCredenciales.Rows[e.RowIndex];
-
-            string nombre = (row.Cells[2].Controls[0] as System.Web.UI.WebControls.TextBox).Text;
-            string usuario = (row.Cells[3].Controls[0] as System.Web.UI.WebControls.TextBox).Text; 
-            string password = (row.Cells[4].Controls[0] as System.Web.UI.WebControls.TextBox).Text;
-            int idcategoria = int.Parse((row.Cells[5].Controls[0] as System.Web.UI.WebControls.TextBox).Text); 
-
-            if (nCuentas.ActualizarCredencial(id, nombre, usuario, password, idcategoria))  
+            string nombre = ((TextBox)gvCredenciales.Rows[e.RowIndex].Cells[1].Controls[0]).Text;
+            string usuario = ((TextBox)gvCredenciales.Rows[e.RowIndex].Cells[2].Controls[0]).Text;
+            string password = ((TextBox)gvCredenciales.Rows[e.RowIndex].Cells[3].Controls[0]).Text;
+            DropDownList ddlCategoria = (DropDownList)gvCredenciales.Rows[e.RowIndex].FindControl("ddlCategoria");
+            int idcategoria = Convert.ToInt32(ddlCategoria.SelectedValue);
+            if (nCuentas.ActualizarCredencial(id, nombre, usuario, password, idcategoria))
             {
                 gvCredenciales.EditIndex = -1;
                 CargarCredenciales();

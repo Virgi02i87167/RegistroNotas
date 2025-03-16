@@ -16,7 +16,7 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="~/index.aspx">Home</a>
+                                <a class="nav-link active" aria-current="page" href="../index.aspx">Home</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="/Cuentas/index.aspx">Credenciales</a>
@@ -30,7 +30,7 @@
             </nav>
         </div>
         <div class="container">
-            <div class="card m-auto mt-5 p-3" style="width: 800px;">
+            <div class="card m-auto mt-5 p-3" style="width: 1300px;">
                 <div class="row">
                     <div class="col-md-4">
                         <h1>Credenciales</h1>
@@ -55,7 +55,17 @@
                                 <asp:BoundField DataField="nombre" HeaderText="nombre" />
                                 <asp:BoundField DataField="usuario" HeaderText="Usuario" />
                                 <asp:BoundField DataField="password" HeaderText="Password" />
-                                <asp:BoundField DataField="categoria" HeaderText="Categoria" />
+
+                                <asp:TemplateField HeaderText="idcategoria">
+            <ItemTemplate>
+                <%# Eval("categoria") %>
+            </ItemTemplate>
+            <EditItemTemplate>
+                <asp:DropDownList ID="ddlCategoria" runat="server" CssClass="form-control">
+                </asp:DropDownList>
+            </EditItemTemplate>
+        </asp:TemplateField>
+
                                 <asp:CommandField ShowEditButton="true" EditText="Editar" />
                                 <asp:CommandField ShowDeleteButton="true" DeleteText="Eliminar" />
 
